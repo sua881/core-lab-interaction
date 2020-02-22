@@ -47,7 +47,6 @@ body
 {
   position:fixed;
   top:58px;
-  z-index:+2;
   right:550px;
   width:250px;
 }
@@ -56,7 +55,6 @@ body
 {
   position:fixed;
   top:58px;
-  z-index:+2;
   right:250px;
   width:300px;
 }
@@ -65,9 +63,16 @@ body
 {
   position:fixed;
   top:58px;
-  z-index:+2;
   right:20px;
   width:300px;
+}
+#home
+{
+  position:fixed;
+  width:300px;
+  left:1410px;
+  top:155px;
+  transform: rotate(90deg);
 }
 
 .buttonblack
@@ -113,4 +118,93 @@ body
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
    margin: 4px 2px;
+}
+
+.middletext
+{
+  position:fixed;
+  color:white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+  top:450px;
+  left:650px;
+}
+
+.projecttext
+{
+  font-family: helvetica;
+  background: -webkit-linear-gradient(-80deg, #81FF00 26%, #FFEB00 61%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2.5px transparent;
+  text-align: center;
+}
+
+#A
+{
+  font-family: amador;
+  background: -webkit-linear-gradient(-80deg, #81FF00 26%, #FFEB00 61%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  text-align: center;
+  position: fixed;
+  top:180px;
+  left:750px;
+  font-size: 128px;
+}
+#abouttext
+{
+  background: -webkit-linear-gradient(#81FF00, #FFEB00);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  position: fixed;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 15px;
+    text-align: justify;
+  width:210px;
+  left:690px;
+  top:360px;
+}
+
+#expression
+{
+  font-size: 45px;
+  position: fixed;
+  bottom: 85px;
+  right:253px;
+}
+
+#machina
+{
+  font-size: 58px;
+  position: fixed;
+  bottom: 257px;
+  left:264px;
+}
+
+#fluxus
+{
+  font-size: 83px;
+  position: fixed;
+  top: 292px;
+  left:138px;
+}
+
+#process
+{
+  font-size: 64px;
+  position: fixed;
+  top: 421px;
+  right:64px;
+}
+
+#fashionography
+{
+  font-size: 31px;
+  position: fixed;
+  top: 162px;
+  right:465px;
 }
