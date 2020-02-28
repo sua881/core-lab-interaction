@@ -1,0 +1,51 @@
+.text
+{
+  font-size: 100px;
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: transparent;
+  font-family: helvetica;
+}
+
+  .albums
+{
+  background-color:#14ff00;
+  width:100%;
+  min-height:100%;
+}
+
+.container
+{
+  width:100%;
+  max-width:90%;
+  height:1200px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #1ff253;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fleximage
+{
+  width:100%;
+  height:auto;
+  width:400px;
+  align-self:center;
+  padding:20px;
+  flex-basis:25%;
+  top:10px;
+
+}
+
+
+@media (max-width: 800px)
+{
+  .container
+  {
+    background:black;
+    flex-direction: column;
+  }
+}
