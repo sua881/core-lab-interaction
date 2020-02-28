@@ -3,11 +3,10 @@
 This is where your custom styles begin.
 
 ==========================================================================  */
-@font-face
-{
-  font-family: 'Aileron Regular';
-  src: url('./../fonts/Aileron-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./../fonts/Aileron-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+@font-face {
+  font-family: 'Aileron';
+  src: url("../fonts/Aileron-Regular.woff2") format('woff2'), /* Pretty Modern Browsers */
+       url("../fonts/Aileron-Regular.woff") format('woff');/* Super Modern Browsers */
 }
 
 body
@@ -37,7 +36,7 @@ body
 {
   color:#DD7CCB;
   font-size: 18px;
-  font-family: helvetica;
+  font-family: Aileron;
   display: inline;
   text-align: center;
 
@@ -124,12 +123,12 @@ body
 {
   position:fixed;
   color:white;
-  font-family: helvetica;
-  font-weight: bold;
+  font-family: Aileron;
+  font-weight: bolder;
   font-size: 20px;
   text-align: center;
   top:440px;
-  left:660px;
+  left:680px;
 }
 
 .projecttext
@@ -160,7 +159,7 @@ body
  -webkit-text-fill-color: transparent;
   position: fixed;
   font-weight: bold;
-  font-family: helvetica;
+  font-family: Aileron;
   font-size: 15px;
     text-align: justify;
   width:210px;
