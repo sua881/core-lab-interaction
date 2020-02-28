@@ -1,7 +1,42 @@
+@font-face {
+  font-family: 'GT Sectra Fine Regular';
+  src: url('../fonts/GT-Sectra-Fine-Regular.woff2') format('woff2'), /* Pretty Modern Browsers */
+       url('../fonts/GT-Sectra-Fine-Regular.woff') format('woff'), /* Super Modern Browsers */
+}
+
+body {
+  font-family:'GT Sectra Fine Regular', courier;
+}
+
 .title
 {
-  font-size: 60px;
-  text-align: center;
-  padding-left: 60px;
-  padding-top:70px;
+  font-family:'GT Sectra Fine Regular';
+  font-size: 70px;
+  position: fixed;
+  left:118px;
+  top:100px;
+}
+
+#nyc
+{
+  font-size: 100px;
+  position: fixed;
+  top: 250px;
+  left:118px;
+  -webkit-text-stroke: 2px black;
+   -webkit-text-fill-color: white;
+}
+
+
+#twoL
+{
+  font-size: 30px;
+  position: fixed;
+  right:118px;
+  bottom:100px;
+}
+
+#bold
+{
+font-weight: bolder;
 }
