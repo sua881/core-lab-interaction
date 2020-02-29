@@ -8,12 +8,23 @@
   src: url("../fonts/GT-Sectra-Regular.woff2") format('woff2'), /* Pretty Modern Browsers */
        url("../fonts/GT-Sectra-Regular.woff") format('woff');/* Super Modern Browsers */
 }
+@font-face {
+  font-family: 'GT Sectra Display Light';
+  src: url("../fonts/GT-Sectra-Display-Light.woff2") format('woff2'), /* Pretty Modern Browsers */
+       url("../fonts/GT-Sectra-Display-Light.woff") format('woff');/* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'GT Sectra Display Super';
+  src: url("../fonts/GT-Sectra-Display-Super.woff2") format('woff2'), /* Pretty Modern Browsers */
+       url("../fonts/GT-Sectra-Display-Super.woff") format('woff');/* Super Modern Browsers */
+}
 
 
 body
 {
   margin-bottom: 2000px;
-  font-family:'GT Sectra Fine Regular';
+  font-family:'GT Sectra Display Light';
   length:2000px;
 }
 
@@ -51,6 +62,7 @@ body
 
 #twoL
 {
+  font-family: 'GT Sectra Display Super';
   font-size: 30px;
   position: absolute;
   right:118px;
@@ -186,6 +198,82 @@ div.love:hover
 {
   display: inline;
 }
+
+.carrieshoes
+{
+  top:5300px;
+  position: absolute;
+  width:1650px;
+
+}
+
+.labelsearly
+{
+  top: 5500px;
+  position: absolute;
+  text-align: center;
+  left: 680px;
+  font-size: 80px;
+  color: white;
+}
+
+.labelsearly:hover
+{
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: transparent;
+}
+
+.carrieandbig
+{
+  position: absolute;
+  top: 6600px;
+  left:580px;
+}
+
+.carrieandbigtwo
+{
+  position: absolute;
+  top: 6600px;
+  left:550px;
+}
+
+.carrieandbigtwo:hover
+{
+  display:none;
+}
+
+
+.concentrate
+{
+  position: absolute;
+  top:7200px;
+  text-align: center;
+  left:500px;
+  font-size: 40px;
+}
+
+.lovecollage
+{
+  position: absolute;
+  top:7500px;
+  width:1650px;
+}
+
+#lovetwo
+{
+  font-size: 340px;
+  top:7700px;
+  position: absolute;
+  color: white;
+  left:500px;
+}
+
+#lovetwo:hover
+{
+  -webkit-text-stroke: 2px red;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (max-width: 800px)
 {
   .title
