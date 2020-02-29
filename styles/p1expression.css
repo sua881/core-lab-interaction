@@ -26,6 +26,14 @@ body
   top:100px;
 }
 
+.newyorkimg
+{
+  position: absolute;
+  width:200px;
+  top:100px;
+  left:300px;
+  display:none;
+}
 #nyc
 {
   font-size: 100px;
@@ -36,6 +44,10 @@ body
   -webkit-text-fill-color: transparent;
 }
 
+#nyc:hover img
+{
+  display: inline;
+}
 
 #twoL
 {
@@ -61,6 +73,7 @@ body
   -webkit-text-stroke: 10px #a4d711;
   -webkit-text-fill-color: transparent;
 }
+
 
 .gif
 {
@@ -110,6 +123,11 @@ body
   -webkit-text-fill-color: transparent;
 }
 
+div.love:hover
+{
+  -webkit-text-stroke: 10px #fa16ff;
+}
+
 .gif2
 {
   width:1650px;
@@ -127,7 +145,7 @@ body
 {
   font-size: 250px;
   left:130px;
-  top:4300px;
+  top:4250px;
   position: absolute;
   -webkit-text-stroke: 2px black;
   -webkit-text-fill-color: transparent;
@@ -135,9 +153,9 @@ body
 
 .yearsago
 {
-  font-size: 70px;
+  font-size: 60px;
   left:130px;
-  top:4550px;
+  top:4500px;
   position: absolute;
 }
 .iwasone
@@ -147,6 +165,26 @@ body
   top:4800px;
   text-align: right;
   position: absolute;
+}
+
+.carrietwenty
+{
+  position: absolute;
+  margin: 0 auto;
+  left:480px;
+  width:300px;
+  align-self:center;
+  display:none;
+  border:3px dotted black;
+  padding:15px;
+  flex-basis:25%;
+  top:
+
+}
+
+.yearsago:hover img
+{
+  display: inline;
 }
 @media (max-width: 800px)
 {
