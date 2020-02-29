@@ -15,6 +15,14 @@ body
     height:515px;
 }
 
+.logo
+{
+  position: fixed;
+  width:1400px;
+  left:150px;
+  top:200px;
+}
+
 .title
 {
   text-align: center;
