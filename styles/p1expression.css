@@ -30,8 +30,7 @@ body
 
 .title
 {
-  font-family:'GT Sectra Fine Regular';
-  font-size: 65px;
+  font-size: 75px;
   position: absolute;
   left:118px;
   top:100px;
@@ -62,7 +61,6 @@ body
 
 #twoL
 {
-  font-family: 'GT Sectra Display Super';
   font-size: 30px;
   position: absolute;
   right:118px;
@@ -71,7 +69,7 @@ body
 
 #bold
 {
-  font-weight: bolder;
+  font-family: 'GT Sectra Display Super';
 }
 
 
@@ -82,7 +80,7 @@ body
   top:1400px;
   position:absolute;
   left:400px;
-  -webkit-text-stroke: 10px #a4d711;
+  -webkit-text-stroke: 4px #a4d711;
   -webkit-text-fill-color: transparent;
 }
 
@@ -131,13 +129,13 @@ body
   position:absolute;
   top:3400px;
   left:460px;
-  -webkit-text-stroke: 10px #f6d6ff;
+  -webkit-text-stroke: 4px #f6d6ff;
   -webkit-text-fill-color: transparent;
 }
 
 div.love:hover
 {
-  -webkit-text-stroke: 10px #fa16ff;
+  -webkit-text-stroke: 4px #fa16ff;
 }
 
 .gif2
@@ -221,6 +219,7 @@ div.love:hover
 {
   -webkit-text-stroke: 2px white;
   -webkit-text-fill-color: transparent;
+  font-family: 'GT Sectra Display Super'
 }
 
 .carrieandbig
