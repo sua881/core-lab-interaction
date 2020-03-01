@@ -214,3 +214,12 @@ body
   top: 162px;
   right:465px;
 }
+
+@media (max-width: 800px)
+{
+  .logo
+  {
+    width:400px;
+  }
+
+}
