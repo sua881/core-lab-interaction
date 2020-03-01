@@ -9,6 +9,12 @@ This is where your custom styles begin.
        url("../fonts/Aileron-Regular.woff") format('woff');/* Super Modern Browsers */
 }
 
+@font-face {
+  font-family: 'Aileron BlackItalic';
+  src: url("../fonts/Aileron-BlackItalic.woff2") format('woff2'), /* Pretty Modern Browsers */
+       url("../fonts/Aileron-BlackItalic.woff") format('woff');/* Super Modern Browsers */
+}
+
 body
 {
     background-color:black;
@@ -50,12 +56,22 @@ body
 
 }
 
+#thingsivemade:hover
+{
+  font-family: 'Aileron BlackItalic'
+}
+
 #thingsivemade
 {
   position:fixed;
   top:58px;
   right:545px;
   width:250px;
+}
+
+#whoami:hover
+{
+  font-family: 'Aileron BlackItalic'
 }
 
 #whoami
@@ -66,6 +82,11 @@ body
   width:300px;
 }
 
+#hitmyline:hover
+{
+  font-family: 'Aileron BlackItalic'
+}
+
 #hitmyline
 {
   position:fixed;
@@ -73,6 +94,12 @@ body
   right:20px;
   width:300px;
 }
+
+#home:hover
+{
+  font-family: 'Aileron BlackItalic'
+}
+
 #home
 {
   position:fixed;
@@ -148,6 +175,13 @@ body
   text-align: center;
 }
 
+.projecttext:hover
+{
+  background: -webkit-linear-gradient(#81FF00, #FFEB00);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
 #A
 {
   font-family: amador;
@@ -213,6 +247,80 @@ body
   position: fixed;
   top: 162px;
   right:465px;
+}
+
+#contact
+{
+  position: absolute;
+  left:102px;
+  top:321px;
+  height:260px;
+}
+
+#email
+{
+  color: white;
+  font-size: 18px;
+  position:absolute;
+  font-family: 'Aileron'
+  bottom:545px;
+  right:139px;
+}
+
+#phone
+{
+  color: white;
+  font-size: 18px;
+  position:absolute;
+  font-family: 'Aileron'
+  top:500px;
+  right: 139px;
+}
+
+.icons
+{
+position: absolute;
+bottom: 350px;
+}
+
+#facebook
+{
+  right: 290px;
+}
+
+#facebook:hover
+{
+
+}
+
+#instagram
+{
+  right: 190px;
+}
+
+#instagram:hover
+{
+
+}
+
+#linkedin
+{
+  right: 140px;
+}
+
+#linkedin:hover
+{
+
+}
+
+#twitter
+{
+  right: 240px;
+}
+
+#twitter:hover
+{
+
 }
 
 @media (max-width: 800px)
