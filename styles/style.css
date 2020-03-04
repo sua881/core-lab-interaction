@@ -27,6 +27,11 @@ This is where your custom styles begin.
        url("../fonts/Aileron-Bold.woff") format('woff');/* Super Modern Browsers */
 }
 
+a
+{
+  text-decoration: none;
+  color:#DD7CCB;
+}
 body
 {
     background-color:black;
