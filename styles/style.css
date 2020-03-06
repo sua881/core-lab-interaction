@@ -175,11 +175,10 @@ body
   position:fixed;
   color:white;
   font-family: Aileron;
-  font-weight: bolder;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
-  top:440px;
-  left:680px;
+  top:420px;
+  left:760px;
 }
 
 .projecttext
@@ -233,42 +232,25 @@ body
 
 #expression
 {
-  font-size: 45px;
+  font-size: 35px;
   position: fixed;
-  bottom: 85px;
-  right:253px;
+  top:200px;
+  left:200px;
 }
 
-#machina
+#pov
 {
-  font-size: 58px;
+  font-size: 35px;
   position: fixed;
-  bottom: 257px;
-  left:264px;
+  bottom:100px;
+  left:500px;
 }
-
-#fluxus
+#p3
 {
-  font-size: 83px;
+  font-size: 35px;
   position: fixed;
-  top: 292px;
-  left:138px;
-}
-
-#process
-{
-  font-size: 64px;
-  position: fixed;
-  top: 421px;
-  right:100px;
-}
-
-#fashionography
-{
-  font-size: 31px;
-  position: fixed;
-  top: 162px;
-  right:465px;
+  top:400px;
+  right:300px;
 }
 
 #contact
