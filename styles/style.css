@@ -172,13 +172,12 @@ body
 
 .middletext
 {
-  position:fixed;
   color:white;
   font-family: Aileron;
   font-size: 15px;
+  position: relative;
+  top:400px;
   text-align: center;
-  top:420px;
-  left:760px;
 }
 
 .projecttext
@@ -203,11 +202,11 @@ body
   background: -webkit-linear-gradient(-80deg, #81FF00 26%, #FFEB00 61%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 3px transparent;
-  position: fixed;
-  top:180px;
+  position: relative;
   font-size: 128px;
   text-align: center;
-  left: 790px;
+  top:240px;
+  left: 760px;
 }
 
 #A:hover
@@ -218,16 +217,15 @@ body
 #abouttext
 {
   background: -webkit-linear-gradient(#81FF00, #FFEB00);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-  position: fixed;
-  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
   font-family: Aileron;
-  font-size: 15px;
+  font-size: 13px;
   text-align: justify;
   width:210px;
-  left:725px;
-  top:360px;
+  top:250px;
+  left: 700px;
 }
 
 #expression
