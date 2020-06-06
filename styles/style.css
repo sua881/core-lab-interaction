@@ -70,6 +70,7 @@ body
   font-family: Aileron;
   display: inline;
   text-align: center;
+  position: relative;
 }
 
 #thingsivemade:hover
@@ -81,8 +82,7 @@ body
 {
   position:fixed;
   top:58px;
-  left:1032px;
-  width:250px;
+  right:400px;
 }
 
 #whoami:hover
@@ -94,8 +94,7 @@ body
 {
   position:fixed;
   top:58px;
-  left:1232px;
-  width:300px;
+  right: 220px;
 }
 
 #hitmyline:hover
@@ -107,8 +106,7 @@ body
 {
   position:fixed;
   top:58px;
-  left:1413px;
-  width:300px;
+  right:45px;
 }
 
 #home:hover
@@ -119,9 +117,8 @@ body
 #home
 {
   position:fixed;
-  width:300px;
-  left:1450px;
-  top:155px;
+  right:30px;
+  top:150px;
   transform: rotate(90deg);
 }
 
@@ -206,7 +203,7 @@ body
   font-size: 128px;
   text-align: center;
   top:160px;
-  left: 800px;
+  right:-780px;
 }
 
 #A:hover
@@ -219,13 +216,13 @@ body
   background: -webkit-linear-gradient(#81FF00, #FFEB00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  position: relative;
+  position:relative;
   font-family: Aileron;
   font-size: 13px;
   text-align: justify;
   width:150px;
   top:180px;
-  left: 773px;
+  right:-750px;
 }
 
 #expression
@@ -241,7 +238,7 @@ body
   font-size: 35px;
   position: absolute;
   bottom:100px;
-  left:500px;
+  right:900px;
 }
 #p3
 {
